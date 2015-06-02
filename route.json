@@ -1,0 +1,699 @@
+{
+    "name": "iOS开发路线",
+    "children": [
+        {
+            "name": "操作系统",
+            "children": [
+                {
+                    "name": "Mac系统使用"
+                },
+                {
+                    "name": "常用UNIX指令"
+                },
+                {
+                    "name": "版本控制",
+                    "children": [
+                        {
+                            "name": "git"
+                        },
+                        {
+                            "name": "svn"
+                        }
+                    ]
+                },
+                {
+                    "name": "xcode安装与使用"
+                }
+            ]
+        },
+        {
+            "name": "开发语言",
+            "children": [
+                {
+                    "name": "C语言"
+                },
+                {
+                    "name": "Objective-C",
+                    "children": [
+                        {
+                            "name": "面向对象"
+                        },
+                        {
+                            "name": "内存管理"
+                        },
+                        {
+                            "name": "Category"
+                        },
+                        {
+                            "name": "KVC"
+                        },
+                        {
+                            "name": "KVO"
+                        },
+                        {
+                            "name": "Protocol"
+                        },
+                        {
+                            "name": "Block"
+                        },
+                        {
+                            "name": "Foundation框架"
+                        }
+                    ]
+                },
+                {
+                    "name": "Swift"
+                }
+            ]
+        },
+        {
+            "name": "iOS基础",
+            "children": [
+                {
+                    "name": "UIView",
+                    "children": [
+                        {
+                            "name": "MKAnnotationView"
+                        },
+                        {
+                            "name": "MKMapView"
+                        },
+                        {
+                            "name": "MKOverlayView"
+                        },
+                        {
+                            "name": "MPVolumeView"
+                        },
+                        {
+                            "name": "GLKView"
+                        },
+                        {
+                            "name": "UIControl",
+                            "children": [
+                                {
+                                    "name": "UIRefreshControl"
+                                },
+                                {
+                                    "name": "UIButton"
+                                },
+                                {
+                                    "name": "UIDatePicker"
+                                },
+                                {
+                                    "name": "UISlider"
+                                },
+                                {
+                                    "name": "UITextField"
+                                },
+                                {
+                                    "name": "UISegmentedControl"
+                                },
+                                {
+                                    "name": "UISwitch"
+                                },
+                                {
+                                    "name": "UIPageControl"
+                                },
+                                {
+                                    "name": "UIStepper"
+                                },
+                                {
+                                    "name": "自定义Control"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UINavigationBar"
+                        },
+                        {
+                            "name": "UIProgressView"
+                        },
+                        {
+                            "name": "UIActivityIndicatorView"
+                        },
+                        {
+                            "name": "UIActionSheet"
+                        },
+                        {
+                            "name": "UITableViewCell"
+                        },
+                        {
+                            "name": "UITabBar"
+                        },
+                        {
+                            "name": "UILabel"
+                        },
+                        {
+                            "name": "UIWindow"
+                        },
+                        {
+                            "name": "UIScrollView",
+                            "children": [
+                                {
+                                    "name": "UITableView"
+                                },
+                                {
+                                    "name": "UICollectionView"
+                                },
+                                {
+                                    "name": "UITextView"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UIAlertView"
+                        },
+                        {
+                            "name": "UICollectionReusableView"
+                        },
+                        {
+                            "name": "UIPickerView"
+                        },
+                        {
+                            "name": "UIToolbar"
+                        },
+                        {
+                            "name": "UIWebView"
+                        },
+                        {
+                            "name": "UIImageView"
+                        },
+                        {
+                            "name": "UITableViewHeaderFooterView"
+                        },
+                        {
+                            "name": "UISearchBar"
+                        },
+                        {
+                            "name": "ADBannerView"
+                        },{
+
+                            "name": "自定义View"
+                        }
+                    ]
+                },
+                {
+                    "name": "iOS程序结构：AppDelegate & UIApplication"
+                },
+                {
+                    "name": "storyborad & xib"
+                },
+                {
+                    "name": "IBOutlet & IBAction"
+                },
+                {
+                    "name": "调试",
+                    "children": [
+                        {
+                            "name": "po等命令"
+                        },
+                        {
+                            "name": "NSLog"
+                        },
+                        {
+                            "name": "断点调试",
+                            "children": [
+                                {
+                                    "name": "全局断点"
+                                },
+                                {
+                                    "name": "条件断点"
+                                },
+                                {
+                                    "name": "普通断点"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "NSZombieEnabled"
+                        },
+                        {
+                            "name": "Console(lldb 命令)"
+                        },
+                        {
+                            "name": "Profile(instruments)"
+                        },
+                        {
+                            "name": "视图调试",
+                            "children": [
+                                {
+                                    "name": "xcode6 UI Debug"
+                                },{
+                                    "name": "Reveal"
+                                },{
+                                    "name": "po recursiveDescription"
+                                }
+                                ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Reveal调试&xcode自带ui调试工具"
+                },
+                {
+                    "name": "CocoaPods安装和使用"
+                },
+                {
+                    "name": "查看API"
+                },
+                {
+                    "name": "沙盒机制"
+                },
+                {
+                    "name": "设备旋转及屏幕适配"
+                },
+                {
+                    "name": "UIView Animation & 核心动画"
+                },
+                {
+                    "name": "Quartz2D"
+                },
+                {
+                    "name": "地图"
+                },
+                {
+                    "name": "UIViewController",
+                    "children": [
+                        {
+                            "name": "EKEventViewController"
+                        },
+                        {
+                            "name": "EKCalendarChooser"
+                        },
+                        {
+                            "name": "MPMediaPickerController"
+                        },
+                        {
+                            "name": "MPMoviePlayerViewController"
+                        },
+                        {
+                            "name": "TWTweetComposeViewController"
+                        },
+                        {
+                            "name": "PKAddPassesViewController"
+                        },
+                        {
+                            "name": "SLComposeViewController"
+                        },
+                        {
+                            "name": "GLKViewController"
+                        },
+                        {
+                            "name": "QLPreviewController"
+                        },
+                        {
+                            "name": "UINavigationController",
+                            "children": [
+                                {
+                                    "name": "EKEventEditViewController"
+                                },
+                                {
+                                    "name": "GKMatchmakerViewController"
+                                },
+                                {
+                                    "name": "GKTurnBasedMatchmakerViewController"
+                                },
+                                {
+                                    "name": "GKGameCenterViewController",
+                                    "children": [
+                                        {
+                                            "name": "GKLeaderboardViewController"
+                                        },
+                                        {
+                                            "name": "GKAchievementViewController"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "GKFriendRequestComposeViewController"
+                                },
+                                {
+                                    "name": "ABPeoplePickerNavigationController"
+                                },
+                                {
+                                    "name": "MFMailComposeViewController"
+                                },
+                                {
+                                    "name": "MFMessageComposeViewController"
+                                },
+                                {
+                                    "name": "UIImagePickerController"
+                                },
+                                {
+                                    "name": "UIVideoEditorController"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ABNewPersonViewController"
+                        },
+                        {
+                            "name": "ABPersonViewController"
+                        },
+                        {
+                            "name": "ABUnknownPersonViewController"
+                        },
+                        {
+                            "name": "SKStoreProductViewController"
+                        },
+                        {
+                            "name": "UITabBarController"
+                        },
+                        {
+                            "name": "UICollectionViewController"
+                        },
+                        {
+                            "name": "UITableViewController"
+                        },
+                        {
+                            "name": "UIPageViewController"
+                        },
+                        {
+                            "name": "UISplitViewController"
+                        },
+                        {
+                            "name": "UIActivityViewController"
+                        }
+                    ]
+                },
+                {
+                    "name": "手势处理 & 加速计",
+                    "children": [
+                        {
+                            "name": "UITapGestureRecognizer"
+                        },
+                        {
+                            "name": "UILongPressGestureRecognizer"
+                        },
+                        {
+                            "name": "UIRotationGestureRecognizer"
+                        },
+                        {
+                            "name": "UIPinchGestureRecognizer"
+                        },
+                        {
+                            "name": "UISwipeGestureRecognizer"
+                        },
+                        {
+                            "name": "UIPanGestureRecognizer"
+                        }
+                    ]
+                },
+                {
+                    "name": "URL schemes"
+                },
+                {
+                    "name": "本地化"
+                },
+                {
+                    "name": "手机功能",
+                    "children": [
+                        {
+                            "name": "定位"
+                        },
+                        {
+                            "name": "打电话"
+                        },
+                        {
+                            "name": "短信"
+                        },
+                        {
+                            "name": "邮件"
+                        },
+                        {
+                            "name": "通讯录"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "iOS高级",
+            "children": [
+                {
+                    "name": "数据存储",
+                    "children": [
+                        {
+                            "name": "Plist",
+                            "children": [
+                                {
+                                    "name": "UserDefault"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "NSCoder"
+                        },
+                        {
+                            "name": "SQLite"
+                        },
+                        {
+                            "name": "Core Data"
+                        },
+                        {
+                            "name": "JSON"
+                        },
+                        {
+                            "name": "KeyChain"
+                        }
+                    ]
+                },
+                {
+                    "name": "RunLoop"
+                },
+                {
+                    "name": "网络交互",
+                    "children": [
+                        {
+                            "name": "Socket",
+                            "children": [
+                                {
+                                    "name": "GCDAsyncSocket"
+                                },
+                                {
+                                    "name": "WebSocket"
+                                },
+                                {
+                                    "name": "SIOSocket"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "CFNetwork",
+                            "children": [
+                                {
+                                    "name": "ASIHttpRequest"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "NSStream"
+                        },
+                        {
+                            "name": "NSURLConnection",
+                            "children": [
+                                {
+                                    "name": "AFNetworking"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "NSURLSession"
+                        }
+                    ]
+                },
+                {
+                    "name": "多线程",
+                    "children": [
+                        {
+                            "name": "NSThread"
+                        },
+                        {
+                            "name": "NSOperation"
+                        },
+                        {
+                            "name": "GCD"
+                        }
+                    ]
+                },
+                {
+                    "name": "多媒体",
+                    "children": [
+                        {
+                            "name": "音频、音效及音频处理"
+                        },
+                        {
+                            "name": "视频"
+                        },
+                        {
+                            "name": "相机,相册"
+                        },
+                        {
+                            "name": "流媒体"
+                        },
+                        {
+                            "name": "滤镜"
+                        }
+                    ]
+                },
+                {
+                    "name": "设计模式",
+                    "children": [
+                        {
+                            "name": "MVC"
+                        },
+                        {
+                            "name": "单例"
+                        },
+                        {
+                            "name": "观察者"
+                        },
+                        {
+                            "name": "代理"
+                        },
+                        {
+                            "name": "通知"
+                        },
+                        {
+                            "name": "观察者(KVO)"
+                        },
+                        {
+                            "name": "工厂模式"
+                        }
+                    ]
+                },
+                {
+                    "name": "安全机制",
+                    "children": [
+                        {
+                            "name": "HTTP验证",
+                            "children": [
+                                {
+                                    "name": "HTTP Basic"
+                                },
+                                {
+                                    "name": "HTTP Digest"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "数据加密",
+                            "children": [
+                                {
+                                    "name": "Hash",
+                                    "children": [
+                                        {
+                                            "name": "MD5"
+                                        },
+                                        {
+                                            "name": "sha1"
+                                        },
+                                        {
+                                            "name": "sha256"
+                                        },
+                                        {
+                                            "name": "sha512"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "RSA"
+                                },
+                                {
+                                    "name": "AES"
+                                },
+                                {
+                                    "name": "3DES/DES"
+                                },
+                                {
+                                    "name": "authCode"
+                                },
+                                {
+                                    "name": "KeyChain"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Autolayout"
+                },
+                {
+                    "name": "Runtime"
+                },
+                {
+                    "name": "正则表达式",
+                    "children": [
+                        {
+                            "name": "NSPredicate"
+                        },
+                        {
+                            "name": "NSRegularExpression"
+                        }
+                    ]
+                },
+                {
+                    "name": "高级控件优化、自定义控制器容器"
+                },
+                {
+                    "name": "开发者账号申请、真机调试、发布应用、网购、广告"
+                },
+                {
+                    "name": "Game Center & 社交服务"
+                },
+                {
+                    "name": "iCloud，Map kit & Core Location"
+                },
+                {
+                    "name": "推送机制"
+                },
+                {
+                    "name": "分享/社会化登陆"
+                },
+                {
+                    "name": "蓝牙"
+                },
+                {
+                    "name": "ARC及内存分析工具"
+                },
+                {
+                    "name": "单元测试"
+                }
+            ]
+        },
+        {
+            "name": "热门技术",
+            "children": [
+                {
+                    "name": "支付"
+                },
+                {
+                    "name": "即时通讯"
+                },
+                {
+                    "name": "H5"
+                },
+                {
+                    "name": "OCR"
+                },
+                {
+                    "name": "人脸识别"
+                }
+            ]
+        },
+        {
+            "name": "游戏开发",
+            "children": [
+                {
+                    "name": "C++"
+                },
+                {
+                    "name": "Cocos2d-x"
+                },
+                {
+                    "name": "OpenGL"
+                }
+            ]
+        }
+    ]
+}
