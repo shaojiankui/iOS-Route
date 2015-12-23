@@ -186,8 +186,8 @@
                         },
                         {
                             "name": "ADBannerView"
-                        },{
-
+                        },
+                        {
                             "name": "自定义View"
                         }
                     ]
@@ -238,12 +238,14 @@
                             "children": [
                                 {
                                     "name": "xcode6 UI Debug"
-                                },{
+                                },
+                                {
                                     "name": "Reveal"
-                                },{
+                                },
+                                {
                                     "name": "po recursiveDescription"
                                 }
-                                ]
+                            ]
                         }
                     ]
                 },
@@ -377,25 +379,47 @@
                     ]
                 },
                 {
-                    "name": "手势处理 & 加速计",
+                    "name": "触摸事件 & 手势处理 & 加速计",
                     "children": [
                         {
-                            "name": "UITapGestureRecognizer"
+                            "name": "触摸事件",
+                            "children": [
+                                {
+                                    "name": "UITouch"
+                                },
+                                {
+                                    "name": "UIEvent"
+                                },
+                                {
+                                    "name": "3DTouch"
+                                }
+                            ]
                         },
                         {
-                            "name": "UILongPressGestureRecognizer"
+                            "name": "手势处理",
+                            "children": [
+                                {
+                                    "name": "UITapGestureRecognizer"
+                                },
+                                {
+                                    "name": "UILongPressGestureRecognizer"
+                                },
+                                {
+                                    "name": "UIRotationGestureRecognizer"
+                                },
+                                {
+                                    "name": "UIPinchGestureRecognizer"
+                                },
+                                {
+                                    "name": "UISwipeGestureRecognizer"
+                                },
+                                {
+                                    "name": "UIPanGestureRecognizer"
+                                }
+                            ]
                         },
                         {
-                            "name": "UIRotationGestureRecognizer"
-                        },
-                        {
-                            "name": "UIPinchGestureRecognizer"
-                        },
-                        {
-                            "name": "UISwipeGestureRecognizer"
-                        },
-                        {
-                            "name": "UIPanGestureRecognizer"
+                            "name": "加速计"
                         }
                     ]
                 },
@@ -517,6 +541,9 @@
                     ]
                 },
                 {
+                    "name": "多任务 Multitasking"
+                },
+                {
                     "name": "多媒体",
                     "children": [
                         {
@@ -616,6 +643,26 @@
                     ]
                 },
                 {
+                    "name": "打包与封装SDK",
+                    "children": [
+                        {
+                            "name": "App Thinning"
+                        },
+                        {
+                            "name": "封装动态库.dylib"
+                        },
+                        {
+                            "name": "封装静态库.a"
+                        },
+                        {
+                            "name": "封装.framework"
+                        },
+                        {
+                            "name": "封装.bundle"
+                        }
+                    ]
+                },
+                {
                     "name": "Autolayout"
                 },
                 {
@@ -678,6 +725,23 @@
                 },
                 {
                     "name": "人脸识别"
+                }
+            ]
+        },
+        {
+            "name": "杂七杂八框架",
+            "children": [
+                {
+                    "name": "HomeKit"
+                },
+                {
+                    "name": "CloudKit"
+                },
+                {
+                    "name": "HealthKit"
+                },
+                {
+                    "name": "ResearchKit"
                 }
             ]
         },
