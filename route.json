@@ -11,6 +11,9 @@
                     "name": "常用UNIX指令"
                 },
                 {
+                    "name": "Google"
+                },
+                {
                     "name": "版本控制",
                     "children": [
                         {
@@ -306,7 +309,7 @@
                     "name": "UIView Animation & 核心动画"
                 },
                 {
-                    "name": "Quartz2D"
+                    "name": "Quartz2D && CoreGraphics"
                 },
                 {
                     "name": "地图"
@@ -735,7 +738,7 @@
                     "name": "高级控件优化、自定义控制器容器"
                 },
                 {
-                    "name": "开发者账号申请、真机调试、发布应用、网购、广告"
+                    "name": "开发者账号申请、真机调试、发布应用、内购、广告"
                 },
                 {
                     "name": "Game Center & 社交服务"
@@ -865,21 +868,78 @@
             ]
         },
         {
-            "name": "杂七杂八框架",
-            "children": [
-                {
-                    "name": "HomeKit"
-                },
-                {
-                    "name": "CloudKit"
-                },
-                {
-                    "name": "HealthKit"
-                },
-                {
-                    "name": "ResearchKit"
+             "name": "系统框架",
+             "children": [
+                    {
+
+                         "name": "常用框架",
+                      "children": [
+                        {
+                            "name": "UIKit"
+                        },
+                        {
+                            "name": "Foundation"
+                        },
+                        {
+                            "name": "MapKit"
+                        },
+                        {
+                            "name": "MediaPlayer"
+                        },
+                        {
+                            "name": "MessageUI"
+                        },
+                        {
+                            "name": "QuartzCore"
+                        },
+                        {
+                            "name": "SystemConfiguration"
+                        },
+                        {
+                            "name": "GameKit"
+                        },
+                        {
+                            "name": "CFNetwork"
+                        },
+                        {
+                            "name": "AVFoundation"
+                        },
+                        {
+                            "name": "AudioToolbox"
+                        },
+                        {
+                            "name": "CoreText"
+                        },
+                        {
+                            "name": "CoreGraphics"
+                        },
+                        {
+                            "name": "CoreAnimation"
+                        },
+                        {
+                            "name": "CoreImage"
+                        }
+                      ]
+                    },
+                    {
+                     "name": "杂七杂八框架",
+                    "children": [
+                        {
+                            "name": "HomeKit"
+                        },
+                        {
+                            "name": "CloudKit"
+                        },
+                        {
+                            "name": "HealthKit"
+                        },
+                        {
+                            "name": "ResearchKit"
+                        }
+                    ]
                 }
             ]
+           
         },
         {
             "name": "游戏开发",
