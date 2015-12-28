@@ -22,6 +22,44 @@
                     ]
                 },
                 {
+                    "name": "常用软件",
+                    "children": [
+                        {
+                            "name": "Application Loader"
+                        },
+                        {
+                            "name": "Charles Proxy"
+                        },
+                        {
+                            "name": "Kaleidoscope"
+                        },
+                        {
+                            "name": "NameChanger"
+                        },
+                        {
+                            "name": "Proxifier"
+                        },
+                        {
+                            "name": "Reveal"
+                        },
+                        {
+                            "name": "LICEcap"
+                        },
+                        {
+                            "name": "iFunBox"
+                        },
+                        {
+                            "name": "iTerm2"
+                        },
+                        {
+                            "name": "xScope"
+                        },
+                        {
+                            "name": "Sublime Text"
+                        }
+                    ]
+                },
+                {
                     "name": "xcode安装与使用"
                 }
             ]
@@ -196,7 +234,7 @@
                     "name": "iOS程序结构：AppDelegate & UIApplication"
                 },
                 {
-                    "name": "storyborad & xib"
+                    "name": "Storyborad & XIB"
                 },
                 {
                     "name": "IBOutlet & IBAction"
@@ -527,6 +565,20 @@
                     ]
                 },
                 {
+                    "name": "WebView&Javascript交互",
+                    "children": [
+                        {
+                            "name": "JavascriptCore.framework"
+                        },
+                        {
+                            "name": "shouldStartLoadWithRequest&iframe"
+                        },
+                        {
+                            "name": "WebViewJavascriptBridge"
+                        }
+                    ]
+                },
+                {
                     "name": "多线程",
                     "children": [
                         {
@@ -725,6 +777,90 @@
                 },
                 {
                     "name": "人脸识别"
+                }
+            ]
+        },
+        {
+            "name": "热门第三方库",
+            "children": [
+                {
+                    "name": "类库",
+                    "children": [
+                        {
+                            "name": "AFNetworking"
+                        },
+                        {
+                            "name": "SDWebImage"
+                        },
+                        {
+                            "name": "GPUImage"
+                        },
+                        {
+                            "name": "ReactiveCocoa"
+                        },
+                        {
+                            "name": "RestKit"
+                        },
+                        {
+                            "name": "MBProgressHUD"
+                        },
+                        {
+                            "name": "MagicalRecord"
+                        },
+                        {
+                            "name": "Mantle"
+                        },
+                        {
+                            "name": "fmdb"
+                        },
+                        {
+                            "name": "Masonry"
+                        },
+                        {
+                            "name": "SWTableViewCell"
+                        },
+                        {
+                            "name": "CocoaAsyncSocket"
+                        },
+                        {
+                            "name": "JSONModel"
+                        },
+                        {
+                            "name": "MMDrawerController"
+                        },
+                        {
+                            "name": "QuickDialog"
+                        },
+                        {
+                            "name": "IQKeyboardManager"
+                        },
+                        {
+                            "name": "UITableView-FDTemplateLayoutCell"
+                        },
+                        {
+                            "name": "RESideMenu"
+                        }
+                    ]
+                },
+                {
+                    "name": "插件",
+                    "children": [
+                        {
+                            "name": "alcatraz"
+                        },
+                        {
+                            "name": "VVDocumenter-Xcode"
+                        },
+                        {
+                            "name": "ColorSense-for-Xcode"
+                        },
+                        {
+                            "name": "KSImageNamed-Xcode"
+                        },
+                        {
+                            "name": "GitDiff"
+                        }
+                    ]
                 }
             ]
         },
