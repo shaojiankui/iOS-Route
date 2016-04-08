@@ -77,7 +77,14 @@
                     "name": "Objective-C",
                     "children": [
                         {
-                            "name": "面向对象"
+                            "name": "面向对象",
+                            "children": [
+                            {
+                                "name": "多态",
+                                "name": "继承",
+                                "name": "封装"
+                            }
+                            ]
                         },
                         {
                             "name": "内存管理"
@@ -96,6 +103,9 @@
                         },
                         {
                             "name": "Block"
+                        },
+                        {
+                            "name": "宏定义"
                         },
                         {
                             "name": "Foundation框架"
@@ -510,7 +520,7 @@
                             "name": "NSCoder"
                         },
                         {
-                            "name": "SQLite"
+                            "name": "SQLite数据库"
                         },
                         {
                             "name": "Core Data"
@@ -540,6 +550,10 @@
                                 },
                                 {
                                     "name": "SIOSocket"
+                                }
+                                ,
+                                {
+                                    "name": "SocketRocket"
                                 }
                             ]
                         },
@@ -578,6 +592,9 @@
                         },
                         {
                             "name": "WebViewJavascriptBridge"
+                        },
+                        {
+                            "name": "JSPatch热补丁"
                         }
                     ]
                 },
@@ -735,7 +752,7 @@
                     ]
                 },
                 {
-                    "name": "高级控件优化、自定义控制器容器"
+                    "name": "高级控件优化、自定义控制器容器、控件封装"
                 },
                 {
                     "name": "开发者账号申请、真机调试、发布应用、内购、广告"
@@ -767,6 +784,9 @@
             "name": "热门技术",
             "children": [
                 {
+                    "name": "React Native"
+                },
+                {
                     "name": "支付"
                 },
                 {
@@ -780,6 +800,9 @@
                 },
                 {
                     "name": "人脸识别"
+                },
+                {
+                    "name": "VR"
                 }
             ]
         },
