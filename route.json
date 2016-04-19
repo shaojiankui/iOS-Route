@@ -79,11 +79,15 @@
                         {
                             "name": "面向对象",
                             "children": [
-                            {
-                                "name": "多态",
-                                "name": "继承",
-                                "name": "封装"
-                            }
+                                {
+                                    "name": "多态"
+                                },
+                                {
+                                    "name": "继承"
+                                },
+                                {
+                                    "name": "封装"
+                                }
                             ]
                         },
                         {
@@ -224,7 +228,7 @@
                             "name": "UIToolbar"
                         },
                         {
-                            "name": "UIWebView"
+                            "name": "UIWebView & WKWebview"
                         },
                         {
                             "name": "UIImageView"
@@ -426,6 +430,9 @@
                         },
                         {
                             "name": "UIActivityViewController"
+                        },
+                        {
+                            "name": "UIDocumentInteractionController"
                         }
                     ]
                 },
@@ -550,8 +557,7 @@
                                 },
                                 {
                                     "name": "SIOSocket"
-                                }
-                                ,
+                                },
                                 {
                                     "name": "SocketRocket"
                                 }
@@ -582,7 +588,7 @@
                     ]
                 },
                 {
-                    "name": "WebView&Javascript交互",
+                    "name": "WKWebview & UIWebView & Javascript交互",
                     "children": [
                         {
                             "name": "JavascriptCore.framework"
@@ -592,6 +598,9 @@
                         },
                         {
                             "name": "WebViewJavascriptBridge"
+                        },
+                        {
+                            "name": "WKScriptMessageHandler"
                         },
                         {
                             "name": "JSPatch热补丁"
@@ -640,6 +649,9 @@
                     "children": [
                         {
                             "name": "MVC"
+                        },
+                        {
+                            "name": "MMVM"
                         },
                         {
                             "name": "单例"
@@ -803,6 +815,9 @@
                 },
                 {
                     "name": "VR"
+                },
+                {
+                    "name": "AR"
                 }
             ]
         },
@@ -891,12 +906,11 @@
             ]
         },
         {
-             "name": "系统框架",
-             "children": [
-                    {
-
-                         "name": "常用框架",
-                      "children": [
+            "name": "系统框架",
+            "children": [
+                {
+                    "name": "常用框架",
+                    "children": [
                         {
                             "name": "UIKit"
                         },
@@ -942,10 +956,10 @@
                         {
                             "name": "CoreImage"
                         }
-                      ]
-                    },
-                    {
-                     "name": "杂七杂八框架",
+                    ]
+                },
+                {
+                    "name": "杂七杂八框架",
                     "children": [
                         {
                             "name": "HomeKit"
@@ -962,7 +976,6 @@
                     ]
                 }
             ]
-           
         },
         {
             "name": "游戏开发",
