@@ -820,17 +820,6 @@
                             ]
                         },
                         {
-                            "name": "代码质量",
-                            "children": [
-                                {
-                                    "name": "codereview"
-                                },
-                                {
-                                    "name": "代码规范检测"
-                                }
-                            ]
-                        },
-                        {
                             "name": "安全",
                             "children": [
                                 {
